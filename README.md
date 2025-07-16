@@ -122,8 +122,23 @@ This self-service flow simplifies internal coordination by enabling staff to tra
 - Marking absence  
   ![](dailydesk-showcase/screenshots/onopera_anotheruser_p10.png)
 
-- Disable/Enable users  
+#### Cancelling a previously reported absence
+
+In real-world scenarios, users might report an absence due to personal leave or hourly permissions — but then return earlier than expected or cancel the leave altogether.
+
+The system allows such users to revoke a previously submitted absence directly from the shift view. If a user had reported an absence, they will see a cancellation option (e.g., ❌ Cancel Daily Absence) next to their name for that shift.
+
+This allows:
+
+- Users to adjust their attendance if plans change
+- Real-time updates to the schedule without admin approval
+- Smooth handover control, especially when a replacement hasn’t been confirmed yet
+
+The moment the absence is cancelled, the system updates the record and restores the user's responsibility for that shift.
+  
   ![](dailydesk-showcase/screenshots/disable_p11.png)  
+  --
+  
   ![](dailydesk-showcase/screenshots/activate_p12.png)  
   ![](dailydesk-showcase/screenshots/disables_p12.png)
 
