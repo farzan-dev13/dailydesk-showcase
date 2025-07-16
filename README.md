@@ -9,7 +9,8 @@
 ## 📸 How It Works (Screenshots)
 
 ### 1. Uploading the Shift File via Django Admin
-<br>
+
+
 Traditionally, team leads were required to manually prepare shift schedules in Excel and repeatedly share them with staff. Employees had to regularly check for changes or updates by referring back to the file or waiting for announcements — which was inefficient, error-prone, and hard to maintain.
 
 With **dailydesk**, the entire shift schedule can now be exported directly from Excel and uploaded via Django Admin. Upon upload, the application automatically parses the file, maps it to internal models, and makes the schedule immediately available on the web UI, preserving the same structure and assignments defined in the Excel file.
@@ -19,7 +20,8 @@ This ensures:
 - Zero need for re-entering data
 - Improved reliability, especially in critical shift-based environments like NOC or support centers
 
-- Upload Excel file in admin panel  
+- Upload Excel file in admin panel
+  
   ![](dailydesk-showcase/screenshots/excel_p1.png)
 
 ---
@@ -39,7 +41,8 @@ The admin panel provides:
 - Logically separated models for easier maintainability
 
   ![](dailydesk-showcase/screenshots/django_admin_p2.png)
-  <br>
+
+
   ![](dailydesk-showcase/screenshots/django_adminUpload_excel_p3.png)
 
   ---
@@ -70,7 +73,8 @@ The view is fully dynamic, reflecting real-time data stored in the backend. User
 While the current styling is functional and readable, the focus of the project was backend logic and workflow automation. The UI is intentionally kept minimal and can be enhanced with modern design components later without changing the system's core logic.
 
 
-- Shift view rendered on the web  
+- Shift view rendered on the web
+  
   ![](dailydesk-showcase/screenshots/after_upload_on_the_web_p5.png)  
   ![](dailydesk-showcase/screenshots/afternoon_part_desk_p6.png)
 
@@ -93,18 +97,21 @@ Only users with elevated permissions (e.g., staff or superuser) can access the D
 The system is also ready for future expansion to token-based authentication (e.g., JWT, OAuth2) or API-based integration with other internal tools — thanks to Django’s extensible auth architecture.
 
 
-- Login page  
+- Login page
+- 
   ![](dailydesk-showcase/screenshots/login_page_p7.png)
 
-- User creation in admin  
+- User creation in admin
+- 
   ![](dailydesk-showcase/screenshots/adduser_in_admin_p8.png)
 
-- User list in Django admin  
+- User list in Django admin
+- 
   ![](dailydesk-showcase/screenshots/listofusers_in_admin_p9.png)
 
 ---
 
-### 4. Absence & Replacement Features
+### ↩️ 🚫 ❎ 4. Absence & Replacement Features
 
 #### Marking absence
 
@@ -119,7 +126,7 @@ The form allows the user to:
 This self-service flow simplifies internal coordination by enabling staff to transparently declare their absence without needing to contact supervisors directly. It also serves as the first step in triggering the **replacement workflow**, where other users will be notified that the shift is now open for substitution.
 
 
-- Marking absence  
+- ⏳ 🕐 ❓ Marking absence  
   ![](dailydesk-showcase/screenshots/onopera_anotheruser_p10.png)
 
 #### Cancelling a previously reported absence
@@ -136,8 +143,9 @@ This allows:
 
 The moment the absence is cancelled, the system updates the record and restores the user's responsibility for that shift.
   
-  ![](dailydesk-showcase/screenshots/disable_p11.png)  
-  --
+  ![](dailydesk-showcase/screenshots/disable_p11.png)
+  
+--
   
 #### Voluntary Replacement by Other Users
 
@@ -163,7 +171,7 @@ Clicking this link will:
 
 ---
 
-#### Visual Feedback for Replacement Logic
+#### 👤➡️👤 Visual Feedback for Replacement Logic
 
 To maintain clarity and prevent duplicate replacements, the interface provides **visual locking indicators**:
 
