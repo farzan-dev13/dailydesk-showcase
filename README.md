@@ -78,6 +78,18 @@ While the current styling is functional and readable, the focus of the project w
 
 ### 3. User Login & Role-Based Access
 
+Each staff member can log in to their profile using secure, individual credentials. The login system is built on Django's battle-tested authentication framework, which provides robust security features such as:
+
+- Secure session management
+- Encrypted password storage
+- CSRF protection by default
+- User-based permission system
+
+Once logged in, users are restricted to their own data. For instance, a user will only see shift actions related to themselves (e.g., reporting absence or confirming replacement), while the rest of the schedule remains read-only.
+
+The system is also ready for future expansion to token-based authentication (e.g., JWT, OAuth2) or API-based integration with other internal tools — thanks to Django’s extensible auth architecture.
+
+
 - Login page  
   ![](dailydesk-showcase/screenshots/login_page_p7.png)
 
