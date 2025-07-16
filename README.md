@@ -183,7 +183,8 @@ To maintain clarity and prevent duplicate replacements, the interface provides *
 
 🔸 This prevents conflicts and ensures that once a user commits to a replacement, it becomes final and is locked across all sessions.
 
-- Visual feedback  
+- Visual feedback
+  <br>
   ![](dailydesk-showcase/screenshots/justseeit_p13.png)  
   ![](dailydesk-showcase/screenshots/kermani_p14.png)
 
