@@ -9,7 +9,7 @@
 ## 📸 How It Works (Screenshots)
 
 ### 1. Uploading the Shift File via Django Admin
-
+<br>
 Traditionally, team leads were required to manually prepare shift schedules in Excel and repeatedly share them with staff. Employees had to regularly check for changes or updates by referring back to the file or waiting for announcements — which was inefficient, error-prone, and hard to maintain.
 
 With **dailydesk**, the entire shift schedule can now be exported directly from Excel and uploaded via Django Admin. Upon upload, the application automatically parses the file, maps it to internal models, and makes the schedule immediately available on the web UI, preserving the same structure and assignments defined in the Excel file.
@@ -25,9 +25,24 @@ This ensures:
 ---
 <br>
 
-- Django admin – file upload interface  
-  ![](dailydesk-showcase/screenshots/django_admin_p2.png)  
+### Django admin – file upload interface
+
+The upload process is fully integrated into the Django Admin interface, enabling managers or authorized personnel to upload shift Excel files without interacting with the backend or codebase.
+
+By clicking the green **“Add shift excel upload”** button, the administrator can select the prepared Excel schedule file and submit it for processing. Once submitted, the backend automatically extracts structured data from the file and creates database records that power the web interface.
+
+The admin panel provides:
+
+- A clean, secure upload interface
+- Validation of the uploaded file format
+- Automatic record creation in `Shifts`, `Assignments`, and `Persons` models
+- Logically separated models for easier maintainability
+
+  ![](dailydesk-showcase/screenshots/django_admin_p2.png)
+  <br>
   ![](dailydesk-showcase/screenshots/django_adminUpload_excel_p3.png)
+
+  ---
 
 - Uploaded file confirmation  
   ![](dailydesk-showcase/screenshots/excel_uploades_p4.png)
