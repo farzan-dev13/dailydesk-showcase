@@ -139,7 +139,26 @@ The moment the absence is cancelled, the system updates the record and restores 
   ![](dailydesk-showcase/screenshots/disable_p11.png)  
   --
   
+#### Voluntary Replacement by Other Users
+
+In the displayed shift chart, each row represents a day of the week and each column corresponds to a responsibility (e.g., Performance, Outlook, Hosting Order).
+
+- The **current logged-in user** (in this case, *Afringan*) is listed in the **Performance** column. They can mark themselves absent by clicking the red "(Mark absence)" link under their name.
+
+- When a user is marked as absent (e.g., *Yasna* in the **Hosting Order** column), their name appears with a blue "(Replace?)" link next to it. This link allows **other users** to volunteer to take over the shift and assume the responsibility.
+
+Clicking this link will:
+
+- Assign the shift to the volunteering user
+- Reflect the updated assignment in real-time for all team members
+- Prevent multiple replacements by locking the spot after one user takes over
+
+> ℹ️ **Note**: All labels and names shown in the screenshot are in Persian (Farsi), as this project was developed for and sold to an Iranian company. The initial Excel input file was also provided in Persian.
+
   ![](dailydesk-showcase/screenshots/activate_p12.png)  
+
+-- 
+
   ![](dailydesk-showcase/screenshots/disables_p12.png)
 
 - Visual feedback  
