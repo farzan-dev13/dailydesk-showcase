@@ -63,6 +63,13 @@ This enables non-technical staff to manage shift data confidently, while the sys
 
 ### 2. Web View After Upload
 
+Once the Excel file is parsed and stored, the shift schedule becomes immediately available in a web-based interface. Each row corresponds to a specific day, and columns represent functional responsibilities like monitoring, ticket handling, Outlook support, and server management.
+
+The view is fully dynamic, reflecting real-time data stored in the backend. Users can only interact with the rows that contain their name — for example, user "Afringan" will only see actionable controls next to their own assignments. This ensures data integrity and prevents unauthorized modifications.
+
+While the current styling is functional and readable, the focus of the project was backend logic and workflow automation. The UI is intentionally kept minimal and can be enhanced with modern design components later without changing the system's core logic.
+
+
 - Shift view rendered on the web  
   ![](dailydesk-showcase/screenshots/after_upload_on_the_web_p5.png)  
   ![](dailydesk-showcase/screenshots/afternoon_part_desk_p6.png)
