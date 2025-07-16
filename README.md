@@ -11,51 +11,51 @@
 ### 1. Uploading the Shift File via Django Admin
 
 - Upload Excel file in admin panel  
-  ![](screenshots/excel_p1.png)
+  ![](dailydesk-showcase/screenshots/excel_p1.png)
 
 - Django admin – file upload interface  
-  ![](screenshots/django_admin_p2.png)  
-  ![](screenshots/django_adminUpload_excel_p3.png)
+  ![](dailydesk-showcase/screenshots/django_admin_p2.png)  
+  ![](dailydesk-showcase/screenshots/django_adminUpload_excel_p3.png)
 
 - Uploaded file confirmation  
-  ![](screenshots/excel_uploades_p4.png)
+  ![](dailydesk-showcase/screenshots/excel_uploades_p4.png)
 
 ---
 
 ### 2. Web View After Upload
 
 - Shift view rendered on the web  
-  ![](screenshots/after_upload_on_the_web_p5.png)  
-  ![](screenshots/afternoon_part_desk_p6.png)
+  ![](dailydesk-showcase/screenshots/after_upload_on_the_web_p5.png)  
+  ![](dailydesk-showcase/screenshots/afternoon_part_desk_p6.png)
 
 ---
 
 ### 3. User Login & Role-Based Access
 
 - Login page  
-  ![](screenshots/login_page_p7.png)
+  ![](dailydesk-showcase/screenshots/login_page_p7.png)
 
 - User creation in admin  
-  ![](screenshots/adduser_in_admin_p8.png)
+  ![](dailydesk-showcase/screenshots/adduser_in_admin_p8.png)
 
 - User list in Django admin  
-  ![](screenshots/listofusers_in_admin_p9.png)
+  ![](dailydesk-showcase/screenshots/listofusers_in_admin_p9.png)
 
 ---
 
 ### 4. Absence & Replacement Features
 
 - Marking absence  
-  ![](screenshots/onopera_anotheruser_p10.png)
+  ![](dailydesk-showcase/screenshots/onopera_anotheruser_p10.png)
 
 - Disable/Enable users  
-  ![](screenshots/disable_p11.png)  
-  ![](screenshots/activate_p12.png)  
-  ![](screenshots/disables_p12.png)
+  ![](dailydesk-showcase/screenshots/disable_p11.png)  
+  ![](dailydesk-showcase/screenshots/activate_p12.png)  
+  ![](dailydesk-showcase/screenshots/disables_p12.png)
 
 - Visual feedback  
-  ![](screenshots/justseeit_p13.png)  
-  ![](screenshots/kermani_p14.png)
+  ![](dailydesk-showcase/screenshots/justseeit_p13.png)  
+  ![](dailydesk-showcase/screenshots/kermani_p14.png)
 
 ---
 
