@@ -161,6 +161,30 @@ Clicking this link will:
 
   ![](dailydesk-showcase/screenshots/disables_p12.png)
 
+---
+
+#### Visual Feedback for Replacement Logic
+
+To maintain clarity and prevent duplicate replacements, the interface provides **visual locking indicators**:
+
+- In the **Hosting Order** column, for a given shift:
+  - If a user (e.g., *Yasna*) has been marked as absent,
+  - And another user (e.g., *Kermani*) has **already replaced** them,
+  - Then the cell will display a **gray background** with a **locked icon** (`🔒`) and the text:
+  
+    ```
+     Kermani ← Yasna 🔒
+    ```
+
+- This means:
+  - The replacement has already occurred.
+  - No further user interaction is possible.
+  - The replacement logic is **single-assignment only** (no overwrite or conflict allowed).
+
+🔸 This prevents conflicts and ensures that once a user commits to a replacement, it becomes final and is locked across all sessions.
+
+> ℹ️ **Note**: The names and interface labels are shown in Persian (Farsi) because this system was originally developed and delivered for an Iranian organization, and the uploaded Excel data was also in Persian.
+
 - Visual feedback  
   ![](dailydesk-showcase/screenshots/justseeit_p13.png)  
   ![](dailydesk-showcase/screenshots/kermani_p14.png)
