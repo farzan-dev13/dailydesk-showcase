@@ -106,6 +106,19 @@ The system is also ready for future expansion to token-based authentication (e.g
 
 ### 4. Absence & Replacement Features
 
+#### Marking absence
+
+When a user is unable to attend a scheduled shift for any reason, they can simply click on their own name in the shift chart and will be redirected to an absence submission page.
+
+The form allows the user to:
+
+- Select a reason from predefined options (e.g., personal leave, emergency, travel)
+- Add an optional note or comment
+- Submit the request with a single click
+
+This self-service flow simplifies internal coordination by enabling staff to transparently declare their absence without needing to contact supervisors directly. It also serves as the first step in triggering the **replacement workflow**, where other users will be notified that the shift is now open for substitution.
+
+
 - Marking absence  
   ![](dailydesk-showcase/screenshots/onopera_anotheruser_p10.png)
 
