@@ -183,8 +183,6 @@ To maintain clarity and prevent duplicate replacements, the interface provides *
 
 🔸 This prevents conflicts and ensures that once a user commits to a replacement, it becomes final and is locked across all sessions.
 
-> ℹ️ **Note**: The names and interface labels are shown in Persian (Farsi) because this system was originally developed and delivered for an Iranian organization, and the uploaded Excel data was also in Persian.
-
 - Visual feedback  
   ![](dailydesk-showcase/screenshots/justseeit_p13.png)  
   ![](dailydesk-showcase/screenshots/kermani_p14.png)
