@@ -44,7 +44,19 @@ The admin panel provides:
 
   ---
 
-- Uploaded file confirmation  
+### Uploaded file confirmation
+
+Once the Excel file is submitted via the admin panel, the system immediately processes it and stores it in the database. The uploaded file is displayed in a confirmation list, showing filename and timestamp for full traceability.
+
+Behind the scenes, the backend:
+
+- Parses the Excel sheet into structured data
+- Populates relational models such as `Persons`, `Assignments`, and `Shifts`
+- Ensures data integrity by validating cell values and headers
+- Automatically timestamps the upload for audit purposes
+
+This enables non-technical staff to manage shift data confidently, while the system guarantees accurate backend integration without manual intervention.
+
   ![](dailydesk-showcase/screenshots/excel_uploades_p4.png)
 
 ---
