@@ -111,7 +111,7 @@ The system is also ready for future expansion to token-based authentication (e.g
 
 ---
 
-### ↩️ 🚫 ❎ 4. Absence & Replacement Features
+###  4. Absence & Replacement Features  ↩️ 🚫 ❎
 
 #### Marking absence
 
@@ -126,7 +126,7 @@ The form allows the user to:
 This self-service flow simplifies internal coordination by enabling staff to transparently declare their absence without needing to contact supervisors directly. It also serves as the first step in triggering the **replacement workflow**, where other users will be notified that the shift is now open for substitution.
 
 
-- ⏳ 🕐 ❓ Marking absence  
+-  Marking absence  ⏳ 🕐 ❓
   ![](dailydesk-showcase/screenshots/onopera_anotheruser_p10.png)
 
 #### Cancelling a previously reported absence
@@ -171,7 +171,7 @@ Clicking this link will:
 
 ---
 
-#### 👤➡️👤 Visual Feedback for Replacement Logic
+####  Visual Feedback for Replacement Logic 👤➡️👤
 
 To maintain clarity and prevent duplicate replacements, the interface provides **visual locking indicators**:
 
