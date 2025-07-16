@@ -153,7 +153,7 @@ Clicking this link will:
 - Reflect the updated assignment in real-time for all team members
 - Prevent multiple replacements by locking the spot after one user takes over
 
-> ℹ️ **Note**: All labels and names shown in the screenshot are in Persian (Farsi), as this project was developed for and sold to an Iranian company. The initial Excel input file was also provided in Persian.
+> ℹ️ **Note**: All labels and names shown in the screenshot are in Parsi (Farsi), as this project was developed for and sold to an Parsi company. The initial Excel input file was also provided in Persian.
 
   ![](dailydesk-showcase/screenshots/activate_p12.png)  
 
