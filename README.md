@@ -87,6 +87,9 @@ Each staff member can log in to their profile using secure, individual credentia
 
 Once logged in, users are restricted to their own data. For instance, a user will only see shift actions related to themselves (e.g., reporting absence or confirming replacement), while the rest of the schedule remains read-only.
 
+🔒 **Admin Access Control**  
+Only users with elevated permissions (e.g., staff or superuser) can access the Django Admin panel at `/admin/`. Regular users — even when logged in — do **not** have access to the user management interface or any global controls. This separation ensures operational integrity and limits exposure to sensitive data.
+
 The system is also ready for future expansion to token-based authentication (e.g., JWT, OAuth2) or API-based integration with other internal tools — thanks to Django’s extensible auth architecture.
 
 
